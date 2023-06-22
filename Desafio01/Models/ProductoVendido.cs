@@ -24,9 +24,9 @@ namespace Desafio01
             this.IdVenta = idVenta;
         }
 
-        private int Id;
-        private int IdProducto;
-        private int Stock;
-        private int IdVenta;
+        public int Id;
+        public int IdProducto;
+        public int Stock;
+        public int IdVenta;
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Desafio01
+namespace Desafio01.Models
 {
     public class Usuario
     {
@@ -20,20 +20,20 @@ namespace Desafio01
         }
         public Usuario(int id, string nombre, string apellido, string nombreUsuario, string contraseña, string mail)
         {
-            this.Id = id;
-            this.Nombre = nombre;
-            this.Apellido = apellido;
-            this.NombreUsuario = nombreUsuario;
-            this.Contraseña = contraseña;
-            this.Mail = mail;
+            Id = id;
+            Nombre = nombre;
+            Apellido = apellido;
+            NombreUsuario = nombreUsuario;
+            Contraseña = contraseña;
+            Mail = mail;
         }
 
-        private int Id;
-        private string Nombre;
-        private string Apellido;
-        private string NombreUsuario;
-        private string Contraseña;
-        private string Mail;
+        public int Id;
+        public string Nombre;
+        public string Apellido;
+        public string NombreUsuario;
+        public string Contraseña;
+        public string Mail;
 
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Desafio01
+namespace Desafio01.Models
 {
     public class Producto
     {
@@ -16,24 +16,24 @@ namespace Desafio01
             PrecioVenta = 0;
             Stock = 0;
             IdUsuario = 0;
-        
+
         }
 
         public Producto(int id, string descripcion, double costo, double precioVenta, int stock, int idUsuario)
         {
-            this.Id = id;
-            this.Descripcion = descripcion;
-            this.Costo = costo;
-            this.PrecioVenta = precioVenta;
-            this.Stock = stock;
-            this.IdUsuario = idUsuario;
+            Id = id;
+            Descripcion = descripcion;
+            Costo = costo;
+            PrecioVenta = precioVenta;
+            Stock = stock;
+            IdUsuario = idUsuario;
         }
 
-        private int Id;
-        private string Descripcion;
-        private double Costo;
-        private double PrecioVenta;
-        private int Stock;
-        private int IdUsuario;
+        public int Id;
+        public string Descripcion;
+        public double Costo;
+        public double PrecioVenta;
+        public int Stock;
+        public int IdUsuario;
     }
 }
